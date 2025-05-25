@@ -648,6 +648,11 @@ span {
         transition-delay: 0s;
     }
 
+
+    body, html {
+  overflow: auto; /* or remove this line */
+}
+
     .navbar.active a {
         transform: translateX(0);
         transition-delay: .25s;
